@@ -1,0 +1,23 @@
+page-about {
+  .avatar{
+    &__item{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    &__img{
+      min-width: 150px;
+      min-height: 150px;
+      margin: auto;
+    }
+    h1,h2{
+      text-align: center;
+      margin-top: 5px;
+      color: white;
+    }
+    h1{
+      img{
+        width:20px;
+      }
+    }
+  }
+}
