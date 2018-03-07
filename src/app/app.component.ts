@@ -10,6 +10,9 @@ import { ListPage } from '../pages/list/list';
 import { AuthPage } from '../pages/auth/auth';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { SettingsPage } from '../pages/settings/settings';
+import { WallPage } from '../pages/wall/wall';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +31,9 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Currency  Converter', component: CurrencyPage },
-      { title: 'About', component: AboutPage }
+      { title: 'About', component: AboutPage },
+      { title: 'News wall', component: WallPage },
+      { title: 'Settings', component: SettingsPage }
     ];
 
   }

@@ -1,10 +1,19 @@
 page-auth {
-  #topButtons{
-    display: flex;
-    flex-direction: row;
+  .content{
+    background-image: url("../../assets/imgs/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
   }
-  #topButtons button{
-    flex: 1;
+  .buttons{
+    margin-top: 70%;
+    button{
+      width: 100%;
+    }
+  }
+  ion-footer{
+    color: white;
+    text-align: center;
   }
 
 }

@@ -10,6 +10,9 @@ import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { CurrencyPage } from '../pages/currency/currency';
 import { AboutPage } from '../pages/about/about';
+import { SettingsPage } from '../pages/settings/settings';
+import { WallPage } from '../pages/wall/wall';
+import { AddPage } from '../pages/add/add';
 
 import {AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
@@ -41,7 +44,10 @@ var config = {
     LoginPage,
     RegisterPage,
     CurrencyPage,
-    AboutPage
+    AboutPage,
+    WallPage,
+    SettingsPage,
+    AddPage
   ],
   imports: [
     BrowserModule,
@@ -60,7 +66,10 @@ var config = {
     LoginPage,
     RegisterPage,
     CurrencyPage,
-    AboutPage
+    AboutPage,
+    WallPage,
+    SettingsPage,
+    AddPage
   ],
   providers: [
     StatusBar,

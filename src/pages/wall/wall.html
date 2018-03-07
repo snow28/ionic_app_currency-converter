@@ -1,0 +1,30 @@
+<!--
+  Generated template for the WallPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>wall</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button (click)="pushTo_addnews()" class="add-news-button" >Add Note</button>
+
+
+  <div class="news">
+    <ion-card class="ion-card"  *ngFor="let news of newsAll ">
+      <div class="news__topic">{{news.topic}}</div>
+      <div class="news__main">{{news.news}}</div>
+    </ion-card>
+  </div>
+
+</ion-content>

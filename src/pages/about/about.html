@@ -24,6 +24,45 @@
         <img class="avatar__img" src="../assets/imgs/avatar.jpg">
       </ion-avatar>
     </ion-item>
+    <div class="mainInfo">
+      <p>My name is <strong>Enes Arslan</strong>, I am <span>web-designer and front-end developer</span> from Turkey.</p>
+      <p>Here I will provide my estimation of my skills.</p>
+    </div>
+    <div class="sliders">
+      <ion-list>
+        <ion-list-header>
+          Photoshop
+        </ion-list-header>
+        <ion-item>
+          <ion-range min="-100" step="10" snaps="true" [(ngModel)]="photoshop">
+            <ion-label range-left class="small-text">Looser</ion-label>
+            <ion-label range-right>Senior</ion-label>
+          </ion-range>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-list-header>
+          HTML
+        </ion-list-header>
+        <ion-item>
+          <ion-range min="-100" step="10" snaps="true" [(ngModel)]="html">
+            <ion-label range-left class="small-text">Looser</ion-label>
+            <ion-label range-right>Senior</ion-label>
+          </ion-range>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-list-header>
+          JavaScript
+        </ion-list-header>
+        <ion-item>
+          <ion-range min="-100" step="10" snaps="true" [(ngModel)]="js">
+            <ion-label range-left class="small-text">Looser</ion-label>
+            <ion-label range-right>Senior</ion-label>
+          </ion-range>
+        </ion-item>
+      </ion-list>
+    </div>
   </div>
 
   <ion-fab right bottom>

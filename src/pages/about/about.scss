@@ -20,4 +20,20 @@ page-about {
       }
     }
   }
+  .mainInfo{
+    p{
+      font-size: 18px;
+    }
+    span{
+      color: color($colors,primary);
+    }
+  }
+  .sliders{
+    .list-header-md{
+      margin-bottom: 0px;
+    }
+    .range-md.range-has-pin{
+      padding-top: 0px;
+    }
+  }
 }

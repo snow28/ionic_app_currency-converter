@@ -1,0 +1,21 @@
+page-wall {
+  .add-news-button{
+    width: calc(100% - 20px);
+    height: 2.3em;
+    background-color: #f4f4f4;
+    color:black;
+  }
+  .news{
+    position: relative;
+    left: -7px;
+    &__topic{
+      color: darkgray;
+      font-size: 25px;
+      text-align: center;
+    }
+    &__main{
+      margin-top: 1em;
+      text-align: center;
+    }
+  }
+}
